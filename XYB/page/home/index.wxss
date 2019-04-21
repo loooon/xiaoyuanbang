@@ -1,0 +1,145 @@
+page {
+  background-color: #ccc;
+}
+
+.scroll-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+}
+
+.swiper-box {
+  width: 100%;
+  height: 300rpx;
+}
+
+.swiper-item {
+  display: block;
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.widgets-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.widgets-title {
+  color: #888;
+  font-size: 1px;
+}
+
+.big-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logoinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100rpx;
+  margin-top: 25rpx;
+}
+
+.logotext {
+  color: #a0522d;
+  font-size: 22rpx;
+}
+
+.title-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+
+.line-css {
+  width: 45%;
+  height: 1px;
+  background: #888;
+}
+
+.title-word {
+  width: 40%;
+  font-size: 36rpx;
+  color: rgb(43, 36, 36);
+  text-align: center;
+  line-height: 1%;
+  font-weight: 16rpx;
+}
+
+.info-box {
+  margin-top: 50rpx;
+}
+
+.content-box {
+  background-color: white;
+  width: 96%;
+  border-top: 1px #ffa07a solid;
+  margin: auto;
+  margin-top: 20rpx;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.time {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 26rpx;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.content {
+  color: #666;
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+}
+.bottom-box {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.bottom-line-css {
+  width: 45%;
+  height: 1px;
+  background: #888;
+}
+
+.bottom-line-csstitle-word {
+  width: 40%;
+  font-size: 22rpx;
+  color: rgb(43, 36, 36);
+  text-align: center;
+  line-height: 1%;
+  font-weight: 16rpx;
+}

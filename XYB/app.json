@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "page/home/index",
+    "page/explore/index",
+    "page/me/index",
+    "page/jianzhi/jianzhi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "black",
+    "color": "white",
+    "backgroundColor": "#FFA07A",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "page/home/index",
+        "text": "首页",
+        "iconPath": "image/shouye1.png",
+        "selectedIconPath": "image/shouye.png"
+      },
+      {
+        "pagePath": "page/explore/index",
+        "text": "发布",
+        "iconPath": "image/faxian1.png",
+        "selectedIconPath": "image/faxian.png"
+      },
+      {
+        "pagePath": "page/me/index",
+        "text": "我的",
+        "iconPath": "image/wode1.png",
+        "selectedIconPath": "image/wode.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

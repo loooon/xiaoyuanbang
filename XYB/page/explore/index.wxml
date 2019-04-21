@@ -1,0 +1,39 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+ <view>选择类别:</view>
+  <view class="section section_gap">
+    <radio-group name="radio-group">
+      <label><radio value="radio1"/>兼职</label>
+      <label><radio value="radio2"/>失物招领</label>
+      <label><radio value="radio3"/>拼车</label>
+      <label><radio value="radio4"/>其他</label>
+    </radio-group>
+  </view>
+<!--  
+ <text class="txt">我的姓名：</text>
+  <view class="section">
+    <input name="input" />
+  </view>
+ 
+  <text>我的头衔：</text>
+  <view class="section">
+    <input name="input"/>
+  </view> -->
+ 
+<text class="txt">内容：</text> 
+<view class="section1">
+  <textarea placeholder="" focus="{{focus}}" />
+</view>
+ 
+ 
+ 
+  <text class="txt">需要支付：</text>
+  <view class="section" type="number">
+    <text>¥0.01</text>
+  </view>
+ 
+ 
+ 
+  <view class="btn-area">
+    <button formType="submit" style="background:#ff9900">提交</button>
+  </view>
+</form>
